@@ -11,10 +11,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -26,26 +23,18 @@ Users should be able to:
 
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
-- **Bonus**: Use the local JSON data to dynamically populate the content
 
-### Screenshot
+### Solutions
 
-![](./screenshot.jpg)
+**Desktop Solution:**
+![](Screenshot 2024-06-28 at 19.58.20.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+**Mobile Solution:**
+![](Screenshot 2024-06-28 at 20.01.54.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
+- Live Site URL: [CodeSandbox](https://codesandbox.io/p/github/2Melonades/ReportSummary/draft/elegant-meadow?file=%2Findex.html&layout=%257B%2522sidebarPanel%2522%253A%2522EXPLORER%2522%252C%2522rootPanelGroup%2522%253A%257B%2522direction%2522%253A%2522horizontal%2522%252C%2522contentType%2522%253A%2522UNKNOWN%2522%252C%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522id%2522%253A%2522ROOT_LAYOUT%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522contentType%2522%253A%2522UNKNOWN%2522%252C%2522direction%2522%253A%2522vertical%2522%252C%2522id%2522%253A%2522clxyztgni00093b6k6zxdyj5o%2522%252C%2522sizes%2522%253A%255B70%252C30%255D%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522contentType%2522%253A%2522EDITOR%2522%252C%2522direction%2522%253A%2522horizontal%2522%252C%2522id%2522%253A%2522EDITOR%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL%2522%252C%2522contentType%2522%253A%2522EDITOR%2522%252C%2522id%2522%253A%2522clxyztgnh00033b6k3bgwrzfo%2522%257D%255D%257D%252C%257B%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522contentType%2522%253A%2522SHELLS%2522%252C%2522direction%2522%253A%2522horizontal%2522%252C%2522id%2522%253A%2522SHELLS%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL%2522%252C%2522contentType%2522%253A%2522SHELLS%2522%252C%2522id%2522%253A%2522clxyztgnh00063b6kd7ykwit0%2522%257D%255D%252C%2522sizes%2522%253A%255B100%255D%257D%255D%257D%252C%257B%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522contentType%2522%253A%2522DEVTOOLS%2522%252C%2522direction%2522%253A%2522vertical%2522%252C%2522id%2522%253A%2522DEVTOOLS%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL%2522%252C%2522contentType%2522%253A%2522DEVTOOLS%2522%252C%2522id%2522%253A%2522clxyztgnh00083b6kn5nzf6ys%2522%257D%255D%252C%2522sizes%2522%253A%255B100%255D%257D%255D%252C%2522sizes%2522%253A%255B50%252C50%255D%257D%252C%2522tabbedPanels%2522%253A%257B%2522clxyztgnh00033b6k3bgwrzfo%2522%253A%257B%2522tabs%2522%253A%255B%257B%2522id%2522%253A%2522clxyztgnf00023b6kvgp0jvcl%2522%252C%2522mode%2522%253A%2522permanent%2522%252C%2522type%2522%253A%2522FILE%2522%252C%2522filepath%2522%253A%2522%252Findex.html%2522%257D%255D%252C%2522id%2522%253A%2522clxyztgnh00033b6k3bgwrzfo%2522%252C%2522activeTabId%2522%253A%2522clxyztgnf00023b6kvgp0jvcl%2522%257D%252C%2522clxyztgnh00083b6kn5nzf6ys%2522%253A%257B%2522tabs%2522%253A%255B%257B%2522id%2522%253A%2522clxyztgnh00073b6k72hx0bqk%2522%252C%2522mode%2522%253A%2522permanent%2522%252C%2522type%2522%253A%2522TASK_PORT%2522%252C%2522taskId%2522%253A%2522start%2522%252C%2522port%2522%253A5000%252C%2522path%2522%253A%2522%252F%2522%257D%255D%252C%2522id%2522%253A%2522clxyztgnh00083b6kn5nzf6ys%2522%252C%2522activeTabId%2522%253A%2522clxyztgnh00073b6k72hx0bqk%2522%257D%252C%2522clxyztgnh00063b6kd7ykwit0%2522%253A%257B%2522tabs%2522%253A%255B%257B%2522id%2522%253A%2522clxyztgnh00043b6kehg7ms13%2522%252C%2522mode%2522%253A%2522permanent%2522%252C%2522type%2522%253A%2522TASK_LOG%2522%252C%2522taskId%2522%253A%2522start%2522%257D%252C%257B%2522id%2522%253A%2522clxyztgnh00053b6k3ln39plq%2522%252C%2522mode%2522%253A%2522permanent%2522%252C%2522type%2522%253A%2522TERMINAL%2522%252C%2522shellId%2522%253A%2522clxyzpzzp0011dbiy7qlf5dz7%2522%257D%255D%252C%2522id%2522%253A%2522clxyztgnh00063b6kd7ykwit0%2522%252C%2522activeTabId%2522%253A%2522clxyztgnh00043b6kehg7ms13%2522%257D%257D%252C%2522showDevtools%2522%253Atrue%252C%2522showShells%2522%253Atrue%252C%2522showSidebar%2522%253Atrue%252C%2522sidebarPanelSize%2522%253A15%257D)
 
 ### Built with
 
@@ -53,60 +42,41 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learned about more complicated types of border styling and got to practice more with positioning, grids and flexboxes.
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.topR {
+    border-radius: 0 7px 0 0;
+    border-style: solid solid none none;
+    top: 0;
+    right: 0;
+}
+
+.topL {
+    border-radius: 7px 0 0 0;
+    border-style: solid none none solid;
+    top: 0;
+    left: 0;
+}
+
+.bottomR {
+    border-radius: 0 0 7px 0;
+    border-style: none solid solid none;
+    bottom: 0;
+    right: 0;
+}
+
+.bottomL {
+    border-radius: 0 0 0 7px;
+    border-style: none none solid solid;
+    bottom: 0;
+    left: 0;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+You can find me on:
+- Instagram - [@melonade_____]([https://www.twitter.com/yourusername](https://www.instagram.com/melonade_____/))
