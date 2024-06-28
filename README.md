@@ -27,10 +27,10 @@ Users should be able to:
 ### Solutions
 
 **Desktop Solution:**
-![](Screenshot 2024-06-28 at 19.58.20.png)
+![Desktop Solution](Screenshot 2024-06-28 at 19.58.20.png)
 
 **Mobile Solution:**
-![](Screenshot 2024-06-28 at 20.01.54.png)
+![Mobile Solution](Screenshot 2024-06-28 at 20.01.54.png)
 
 ### Links
 
