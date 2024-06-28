@@ -1,0 +1,373 @@
+/* General Styling */
+@font-face {
+    font-family: HankenGrotesk;
+    src: url(../assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: HankenGrotesk;
+}
+
+button {
+    border-radius: 20px;
+    padding: 5% 35%;
+    border: none;
+    background: #313B59;
+    color: white;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+button:hover {
+    background: #161b28;
+}
+
+button:active {
+    background: #6919ff;
+}
+
+h1 {
+    font-size: 300%;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    font-size: 100%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    font-weight: 500;
+}
+
+h3 {
+    margin: 0;
+    color: #313B59;
+}
+
+h4 {
+    font-size: 1.1vw;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 10%;
+}
+
+h5 {
+    margin: 0;
+}
+
+p {
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0;
+}
+
+strong {
+    color: #313B59;
+    font-weight: 900;
+}
+
+.corner {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-width: 0.5px;
+}
+
+.topR {
+    border-radius: 0 7px 0 0;
+    border-style: solid solid none none;
+    top: 0;
+    right: 0;
+}
+
+.topL {
+    border-radius: 7px 0 0 0;
+    border-style: solid none none solid;
+    top: 0;
+    left: 0;
+}
+
+.bottomR {
+    border-radius: 0 0 7px 0;
+    border-style: none solid solid none;
+    bottom: 0;
+    right: 0;
+}
+
+.bottomL {
+    border-radius: 0 0 0 7px;
+    border-style: none none solid solid;
+    bottom: 0;
+    left: 0;
+}
+
+/* Base Box */
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainSection {
+    display: flex;
+    position: fixed;
+    width: 500px;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: #E9EDFB 10px 10px 25px;
+}
+
+/* Scores Area */
+.scoresSection {
+    padding: 5%;
+    width: 50%;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+.scores {
+    padding: 2vh 0;
+    height: 80%;
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20%;
+    row-gap: 5%;
+}
+
+.scoreParent {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+.scoreParent > p {
+    color: #0000006e;
+    font-weight: 700;
+}
+
+.scoreParent > .subject {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.scoreParent > .subject > img {
+    width: 25%;
+    height: 80%;
+}
+
+.red {
+    background-color: #FFF7F4;
+    border-radius: 7px;
+}
+
+.yellow {
+    background-color: #FDFDF0;
+    border-radius: 7px;
+}
+
+.green {
+    background-color: #F1FBFA;
+    border-radius: 7px;
+}
+
+.blue {
+    background-color: #F3F3FF;
+    border-radius: 7px;
+}
+
+.red > .corner {
+    border-color: #ffa3825e;
+}
+
+.yellow > .corner {
+    border-color: #ffea825e;
+}
+
+.green > .corner {
+    border-color: #82ff8c5e;
+}
+
+.blue > .corner {
+    border-color: #9982ff5e;
+}
+
+.red > .subject > h5 {
+    color: #eb766b;
+}
+
+.yellow > .subject > h5 {
+    color: #dfc337;
+}
+
+.green > .subject > h5 {
+    color: #39ae42;
+}
+
+.blue > .subject > h5 {
+    color: #4b389f;
+}
+
+/* Overall Area */
+.overallSection {
+    background: rgb(48,45,233);
+    background: linear-gradient(0deg, rgba(48,45,233,1) 0%, rgba(101,66,251,1) 100%);
+    border-radius: 20px;
+    width: 49%;
+    padding: 5% 8%;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.overallSection > div > p, .overallSection > div > h4 {
+    color: rgba(255, 255, 255, 0.687);
+}
+
+.topSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle {
+    background: rgb(73,35,202);
+    background: linear-gradient(180deg, rgba(73,35,202,1) 0%, rgba(71,53,243,1) 100%);
+    border-radius: 50%;
+    width: 10vw;
+    height: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.circle > p {
+    color: rgba(255, 255, 255, 0.46);
+    font-weight: 400;
+}
+
+/* Footer */
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+/* Larger screens */
+@media (max-width: 1200px) {
+    .circle {
+        width: 15vw;
+        height: 15vw;
+    }
+}
+
+@media (max-width: 1024px) {
+    .overallSection {
+        width: 49%;
+        padding: 5% 8%;
+    }
+
+    .attribution { 
+        font-size: 11px; 
+    }
+}
+
+@media (max-width: 800px) {
+    .circle {
+        width: 20vw;
+        height: 20vw;
+    }
+
+    h4 {
+        font-size: 130%;
+    }
+
+    h2 {
+        font-size: 150%;
+        margin: 5%;
+    }
+
+    h1 {
+        font-size: 350%;
+    }
+}
+
+
+/* Mobile */
+@media (max-width: 550px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .circle {
+        width: 40vw;
+        height: 40vw;
+    }
+
+    .mainSection {
+        width: 100%;
+        height: 100%;
+        box-shadow: none;
+        flex-direction: column;
+    }
+
+    .overallSection {
+        width: 100%;
+        height: 55%;
+        padding: 8% 16%;
+        border-radius: 0 0 40px 40px;
+    }
+
+    .scoresSection {
+        width: 100%;
+        padding: 10%;
+    }
+
+    button {
+        border-radius: 50px;
+    }
+
+    .scoreParent {
+        padding: 5%;
+    }
+
+    .scoreParent > .subject {
+        height: 500%;
+    }
+
+    p {
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    .overallSection {
+        height: 50%;
+    }
+
+    .scoresSection {
+        width: 100%;
+        padding: 20% 10%;
+    }
+}
